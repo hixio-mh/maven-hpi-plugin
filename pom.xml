@@ -5,7 +5,7 @@
     <groupId>org.jenkins-ci</groupId>
     <artifactId>jenkins</artifactId>
     <version>1.59</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.jenkins-ci.tools</groupId>
@@ -127,7 +127,7 @@
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-maven-plugin</artifactId>
-      <version>9.4.32.v20200930</version>
+      <version>9.4.45.v20220203</version>
     </dependency>
     <dependency>
       <groupId>net.java.sezpoz</groupId>
@@ -213,7 +213,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -254,7 +254,7 @@
         <configuration>
           <propertyName>repository.proxy.url</propertyName>
           <repositories>
-            <proxyRepo />
+            <proxyRepo/>
           </repositories>
         </configuration>
       </plugin>          
@@ -367,7 +367,7 @@
                 <configuration>
                   <streamLogs>true</streamLogs>
                   <environmentVariables>
-                      <JENKINS_HOME /> <!-- block anything set by a CI environment -->
+                      <JENKINS_HOME/> <!-- block anything set by a CI environment -->
                   </environmentVariables>
                 </configuration>
               </execution>
